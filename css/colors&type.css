@@ -24,14 +24,14 @@
        url('../fonts/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* montserrat-900 - latin */
+/* montserrat-700 - latin */
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 900;
-  src: local('Montserrat Black'), local('Montserrat-Black'),
-       url('../fonts/montserrat-v14-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/montserrat-v14-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-weight: 700;
+  src: local('Montserrat Bold'), local('Montserrat-Bold'),
+       url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 html{
   box-sizing: border-box;
@@ -78,6 +78,7 @@ html{
 .green-rect{
   background: #6FCF97;
   top: 685px;
+  bottom: 145px;
 }
 .rect-labels{
   position: absolute;
@@ -213,6 +214,7 @@ width: 336px;
 height: 60px;
 left: 913px;
 top: 145px;
+right: 191px;
 }
 .h2-layout{
   position: absolute;
@@ -223,17 +225,17 @@ top: 255px;
 }
 .h3-layout{
   position: absolute;
-width: 186px;
-height: 15px;
-left: 913px;
-top: 353px;
+  width: 186px;
+  height: 15px;
+  left: 913px;
+  top: 354px;
 }
 .body-layout{
   position: absolute;
 width: 301px;
 height: 48px;
 left: 913px;
-top: 418px;
+top: 415.5px;
 }
 
 
